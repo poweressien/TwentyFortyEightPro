@@ -1,0 +1,20 @@
+*.iml
+.gradle/
+/local.properties
+.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+
+# Keystore — never commit your real signing key
+*.jks
+*.keystore
+keystore.properties
+
+# kotlinc local test artifacts (see EngineTestRunner.kt)
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
